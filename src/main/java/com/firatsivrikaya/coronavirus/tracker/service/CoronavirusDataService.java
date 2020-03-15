@@ -22,7 +22,7 @@ import com.firatsivrikaya.coronavirus.tracker.model.LocationStatistic;
 public class CoronavirusDataService {
 	private static final String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
 
-	// this is stateful and never should be in production code :)
+	// this is stateful and should never be in the production code :)
 	private List<LocationStatistic> locationStatistics = new ArrayList<>();
 
 	public List<LocationStatistic> getLocationStatistics() {
