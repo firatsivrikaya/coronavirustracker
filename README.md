@@ -1,5 +1,5 @@
 # coronavirustracker
-Coronvirus Tracker Application with Spring Boot.
+Coronavirus Tracker Application with Spring Boot.
 
 This is done with learning purposes
 
